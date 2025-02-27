@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Business Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #d7dbdd;
+            color: rgb(27, 22, 15);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 50px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .ad-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .ad-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .ad-section button {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .ad-section button:hover {
+            background-color: #005bb5;
+        }
+        .about {
+            margin: 20px 0;
+        }
+        .about h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: rgb(136, 90, 38);
+        }
+        .about p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        .services {
+            margin: 20px 0;
+        }
+        .services h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: rgb(136, 90, 38);
+        }
+        .services h3 {
+            color: rgb(136, 90, 38);
+        }
+        .services .service-item {
+            display: flex;
+            align-items: center;
+            background: #f0f0f0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .services .service-item img {
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/sombukazi_logo.png" alt="Company Logo">
+        <h1>Welcome to Sombukazi Holdings</h1>
+    </header>
+
+    <div class="container">
+        <div class="about">
+            <h2>About Us</h2>
+            <p>
+                <b>Sombukazi Holdings PTY LTD</b> is a dynamic and innovative company established in 2024. Specializing in construction and transportation services and holdings services.
+                Our mission is to provide top-notch solutions, exceeding client expectation through unparalleled expertise, reliability, and efficiency.
+                <br>
+
+                Overview<br>
+                Sombukazi Holdings PTY LTD is a comprehensive construction and conversation company specializing in varios services, including paving, earthworks, and infrastructure development.
+                Our mission is to deliver top-notch services to government agencies, private sectors, and individuals, ensuring long lasting and sustainable solutions.
+
+            </p>
+        </div>
+
+        <div class="services">
+            <h2>Our Services</h2>
+            <br>
+            <h3>Construction Division</h3>
+            <div class="service-item">
+                <img src="img/civilEng.jpg">
+                <p>Building and Civil Engineering: Residential, commercial, and industrial construction projects, including design, planning and execution.</p>
+            </div>
+            <div class="service-item">
+                <img src="img/RoadMain.jpg">
+                <p>Road Construction and Maintenance: Asphalt laying, road rehabilitation and maintenance, ensuring safe and durable infrastructure.</p>
+            </div>
+            <div class="service-item">
+                <img src="img/project-manager-definition.jpg">
+                <p>Project Management: Expert project planning, corordination, and execution, ensuring timely and budget-friendly delivery.</p>
+            </div>
+            <div class="service-item">
+                <img src="img/steel_fabr.jpg">
+                <p>Structural Steel Fabrication: Customized steel fabrication for construction projects, ensuring precision, and quality.</p>
+            </div>
+
+            <br>
+            <h3>Transportation Division</h3>
+            <div class="service-item">
+                <img src="img/supply chain.jpg">
+                <p>Logistics and Supply Chain Management:  Efficient cargo handling and transportation solutions, streamlining client operations.</p>
+            </div>
+            <div class="service-item">
+                <img src="img/fleet003-580x345.png">
+                <p>Heavy Haulage: Abnormal load transportation, including oversized and overweight cargo, with specialized equipment.</p>
+            </div>
+            <div class="service-item">
+                <img src="img/what-is-fleet-management-system.jpg">
+                <p>Fleet Management: Specialized vehicle leasing and maintenance services, ensuring optimal fleet performance.</p>
+            </div>
+            <div class="service-item">
+                <img src="img/storage-solutions-web.jpg">
+                <p>Warehousing and Storage: Secure storage facilities for goods and equipement, with 24/7 security.</p>
+            </div>
+
+        </div>
+
+        <div class="ad-section">
+            <h2>Why Choose Us?</h2>
+            <p>With over 10 years of experience, we are committed to delivering high-quality construction services tailored to your needs. Our team of experts ensures that every project is completed on time and within budget.</p>
+        </div>
+    </div>
+    <div class="ad-section">
+        <h2>Special Offer</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Special Offer">
+        <p>Get 10% off on your first construction project with us! Offer valid until the end of the month.</p>
+        <button onclick="alert('Thank you for your interest!')">Contact Us</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Construction Business. All rights reserved. | <a href="#" style="color: white; text-decoration: underline;">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
