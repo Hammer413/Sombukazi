@@ -93,12 +93,38 @@
             margin-right: 10px;
             border-radius: 5px;
         }
+        .contact-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .contact-section img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .contact-details h2 {
+            margin-top: 0;
+            color: rgb(136, 90, 38);
+        }
+        .contact-details p {
+            margin: 10px 0 0 0;
+            line-height: 1.6;
+        }
         footer {
             text-align: center;
             padding: 10px 0;
             background-color: #333;
             color: white;
             margin-top: 20px;
+        }
+        a {
+            color: #0078d7;
         }
     </style>
 </head>
@@ -115,11 +141,9 @@
                 <b>Sombukazi Holdings PTY LTD</b> is a dynamic and innovative company established in 2024. Specializing in construction and transportation services and holdings services.
                 Our mission is to provide top-notch solutions, exceeding client expectation through unparalleled expertise, reliability, and efficiency.
                 <br>
-
                 Overview<br>
                 Sombukazi Holdings PTY LTD is a comprehensive construction and conversation company specializing in varios services, including paving, earthworks, and infrastructure development.
                 Our mission is to deliver top-notch services to government agencies, private sectors, and individuals, ensuring long lasting and sustainable solutions.
-
             </p>
         </div>
 
@@ -162,23 +186,23 @@
                 <img src="img/storage-solutions-web.jpg">
                 <p>Warehousing and Storage: Secure storage facilities for goods and equipement, with 24/7 security.</p>
             </div>
-
         </div>
 
-        <div class="ad-section">
-            <h2>Why Choose Us?</h2>
-            <p>With over 10 years of experience, we are committed to delivering high-quality construction services tailored to your needs. Our team of experts ensures that every project is completed on time and within budget.</p>
+        <div class="contact-section">
+            <img src="img/mashesha_2.jpg" alt="Contact Person">
+            <div class="contact-details">
+                <h2>Contact Us</h2>
+                <p>
+                    Reach out to our team for project inquiries, quotes, or more information.<br>
+                    <b>CEO:</b> Mr JB Masombuka<br>
+                    <b>Email:</b> Jabuben2@gmail.com<br>
+                    <b>Phone:</b> +27 79 855 2330<br>
+                    <b>Address:</b> 1724 Kwaggafontein-A, Mpumalanga 0458.<br>
+                </p>
+            </div>
         </div>
-    </div>
-    <div class="ad-section">
-        <h2>Special Offer</h2>
-        <img src="https://via.placeholder.com/800x400" alt="Special Offer">
-        <p>Get 10% off on your first construction project with us! Offer valid until the end of the month.</p>
-        <button onclick="alert('Thank you for your interest!')">Contact Us</button>
     </div>
 
     <footer>
         <p>&copy; 2025 Construction Business. All rights reserved. | <a href="#" style="color: white; text-decoration: underline;">Privacy Policy</a></p>
     </footer>
-</body>
-</html>
